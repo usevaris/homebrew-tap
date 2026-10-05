@@ -3,28 +3,28 @@
 class Varis < Formula
   desc "Publish services that AI agents discover and pay to use"
   homepage "https://github.com/usevaris/varis-cli"
-  version "1.0.0"
+  version "1.0.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/usevaris/varis-cli/releases/download/v1.0.0/varis-darwin-arm64.tar.gz"
-      sha256 "6e99e25b63807ae17148367fc228068a2b8bdb379e1288ef8424d547ac47ec35"
+      url "https://github.com/usevaris/varis-cli/releases/download/v1.0.1/varis-darwin-arm64.tar.gz"
+      sha256 "55bd0ac90d4450305a5aa54f9895de9b944651e841392582c395e5065e04db4f"
     end
     on_intel do
-      url "https://github.com/usevaris/varis-cli/releases/download/v1.0.0/varis-darwin-x64.tar.gz"
-      sha256 "584d965201d3129a16b361141edf779a02c00dbd543c6553d4013819dd4d3c3f"
+      url "https://github.com/usevaris/varis-cli/releases/download/v1.0.1/varis-darwin-x64.tar.gz"
+      sha256 "2cfe5fc9df3c04baf0c5441001b88fa94cdcabf259ead8908390a55c65a5060b"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/usevaris/varis-cli/releases/download/v1.0.0/varis-linux-arm64.tar.gz"
-      sha256 "35dd62d1f182926bb1dc25769c5aebe02ee8c27b89eecd2bce1571cbb60304de"
+      url "https://github.com/usevaris/varis-cli/releases/download/v1.0.1/varis-linux-arm64.tar.gz"
+      sha256 "597e4ae3096354e46092dfd7824a5b9784eb1b065c485ea9a09077656f700060"
     end
     on_intel do
-      url "https://github.com/usevaris/varis-cli/releases/download/v1.0.0/varis-linux-x64.tar.gz"
-      sha256 "2e2b4b73eff0f08e7d8032efb0c3e6f660ffed62e546d61316b020da43bfd579"
+      url "https://github.com/usevaris/varis-cli/releases/download/v1.0.1/varis-linux-x64.tar.gz"
+      sha256 "e23661c75de7e4e2e425a6817c5f5636dec5ea5076b12a89c82a6e55d52b56fa"
     end
   end
 
